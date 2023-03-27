@@ -7,9 +7,11 @@ export default function Calculator() {
   return (
     <PageContainer
       className={classNames("grid", "gap-8", "grid-rows-[1fr_auto]")}
-    >
+ >
       <CalculatorForm />
       <CalculatorToolbar />
+      
+      <p>Formeln<p>
     </PageContainer>
   );
 }
